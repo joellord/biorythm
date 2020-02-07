@@ -1,4 +1,4 @@
-#!env /bin/node
+#!/usr/bin/env node
 const args = process.argv.splice(2);
 let today = args[1] ? new Date(args[1]) : new Date();
 let birthdate = new Date(args[0]);
